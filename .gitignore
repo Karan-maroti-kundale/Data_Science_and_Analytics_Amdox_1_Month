@@ -1,0 +1,86 @@
+# =========================================================
+# NeuralRetail - .gitignore
+# =========================================================
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Coverage / test artifacts
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# =========================================================
+# Data files - keep raw/cleaned datasets out of git
+# =========================================================
+OnlineRetailII.csv
+feature_master_online_retail_ii.csv
+*.csv
+*.parquet
+*.feather
+*.pq
+*.xlsx
+*.xls
+
+# =========================================================
+# Model artifacts
+# =========================================================
+models/
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.onnx
+*.pt
+*.pth
+*.json
+*.csv
+
+# If you want to keep the folder structure in git, add .gitkeep files instead
+# and uncomment the lines below to preserve empty directories:
+# !models/.gitkeep
+# !logs/.gitkeep
+
+# =========================================================
+# Temporary / miscellaneous
+# =========================================================
+tmp/
+temp/
+*.tmp
+*.swp
