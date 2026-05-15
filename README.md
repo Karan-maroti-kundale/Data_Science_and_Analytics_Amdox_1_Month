@@ -166,3 +166,7 @@ The dashboard will connect to:
 ```text
 http://127.0.0.1:8000/predict/churn
 ```
+
+## Demo Video
+
+[🎬 Click on me to watch the Full End-to-End System Demo](https://drive.google.com/file/d/11sBX9xZkvBD_bpdk7q0skN0p4FCWFCxy/view?usp=drive_link)
